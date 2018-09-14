@@ -30,6 +30,16 @@ calculateSide(8, 6);
 */
 
 //5. Sum Array
+/*
 console.log([1, 2, 3, 4, 5, 6].reduce((a, b) => a + b, 0));
+*/
 
+//6.
+const checkPrime = (num) => {
+    for(let i = 2; i <= Math.sqrt(i); i++)
+        if (num % i === 0) 
+        return false;
+        return num !== 1;  
+    }
+checkPrime(9);
 
