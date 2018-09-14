@@ -21,15 +21,15 @@ checkPalindrome('Borscht');
 
 
 //4. Pythagoras
+/*
 const calculateSide = (sideA, sideB) => {
     const sideC = Math.sqrt(Math.pow(sideA,2) + Math.pow(sideB,2));
    console.log(sideC);
 }
 calculateSide(8, 6);
+*/
 
-
-
-
-
+//5. Sum Array
+console.log([1, 2, 3, 4, 5, 6].reduce((a, b) => a + b, 0));
 
 
