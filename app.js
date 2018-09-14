@@ -4,4 +4,14 @@
 //2. Return gives a value to a function. Console.log simply allows us to see the results.
 //3. It allows the funciton to be reused, for DRY code.
 
-
+const checkPalindrome = (word) => {
+    word = word.toLowerCase;
+   const reversedWord = word.split('').reverse().join('');
+    if (word === reversedWord) {
+    console.log('true');
+    } else {
+    console.log('false');
+    } 
+}
+checkPalindrome('Radar');
+checkPalindrome('Borscht');
